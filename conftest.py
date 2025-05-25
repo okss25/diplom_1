@@ -56,6 +56,3 @@ def mock_filling_2():
     return mock_for_filling_2
 
 
-@pytest.fixture
-def db():
-    return Database()
